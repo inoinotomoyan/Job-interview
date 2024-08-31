@@ -20,7 +20,7 @@ Git hub 使い方
 　　・「cd 対象のフォルダ名」入力
 　　・「git init」で初期化
 　　・「git add ファイル名」
-　　・「git commit -m "git hub の画面に表示させる適当な名前」
+　　・「git commit -m "git hub の画面に表示させる名前」
 　　・「git push origin main」
 #3.ブランチを変更するとき
 　　・git checkout "ブランチ名" (切り替える前にファイルは切り替える前のブランチにコミットしておく)
