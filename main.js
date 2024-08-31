@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function buttonClick() {
-  location.href = "https://hamatakeblog.hatenablog.com";
+  location.href = "#";
+  // 本来であればprofilepageのURLを指定するが、サーバーへアップしていないため今回は"#"を指定している。
 }
 let button_2 = document.getElementById("profilebtn");
 button_2.onclick = buttonClick;
