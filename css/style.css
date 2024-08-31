@@ -1,0 +1,349 @@
+@charset "utf-8";
+body {
+  font-family: "Noto Sans JP", serif;
+  font-size: 18px;
+  color: #121212;
+}
+
+h1 {
+  text-align: center;
+  /* padding: 20px 0px 16px; */
+}
+h1 img {
+  height: 200px;
+}
+header div {
+  display: flex;
+  justify-content: center;
+}
+header h1 .companylogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #7c5d48;
+  border-bottom: 2px solid #7c5d48;
+  background-color: rgba(255, 255, 255, 0.42);
+  margin: 10px 20px 0 20px;
+  padding: 12px 0px 10px;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7c5d48;
+}
+header nav ul li a:hover {
+  text-decoration: underline double;
+}
+
+/* bulletinboardSecの内容＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ */
+main .bulletinboard {
+  display: flex;
+  height: 100px;
+
+  /* margin-top: 100px; */
+}
+main .bulletinboard p {
+  text-align: center;
+  width: 400px;
+  margin: 20px auto 20px auto;
+
+  background-color: white;
+  font-size: 50px;
+  color: #f0973e;
+  border: 2px solid #f0973e;
+
+  font-weight: 400;
+}
+
+/* middleSecの内容ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+main {
+  background-image: url(../images/wood.jpg);
+}
+main .middleSec {
+  position: relative;
+}
+main .middleSec .innerwrap {
+  border: 2px solid #7c5d48;
+  background-color: white;
+
+  height: 3300px;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+main .middleSec .contents_one {
+  display: flex;
+}
+main .middleSec .contents_one .myselfimage {
+  margin: 35px 0 0 35px;
+}
+
+main .middleSec img {
+  height: 300px;
+  width: 400px;
+}
+.contents_one .introduction {
+  margin: 35px 15px 0 65px;
+}
+.contents_one .introduction h1 {
+  color: #f0973e;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+.contents_one .introduction h2 {
+  font-size: 18px;
+  margin: 35px 0 35px 0;
+}
+.contents_one .introduction h2 span {
+  color: #f0973e;
+
+  font-weight: 800;
+}
+.contents_two h1 {
+  color: #f0973e;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 35px 0 0 35px;
+}
+.contents_two .subjects {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+.contents_two .subjects .before {
+  margin: 0 0 0 185px;
+}
+.contents_two .subjects .after {
+  margin: 0 0 0 520px;
+}
+.contents_two .results {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 0 0;
+}
+.contents_two .results h2 {
+  width: 280px;
+  border: 2px solid #f0973e;
+  padding: 10px 10px 10px 10px;
+}
+.contents_two .results span {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: #f0973e;
+}
+
+.contents_three h1 {
+  color: #f0973e;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 35px 0 0 35px;
+}
+.contents_three p {
+  line-height: 30px;
+  margin: 10px 35px 0 35px;
+}
+.contents_four h1 {
+  color: #f0973e;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 35px 0 0 35px;
+}
+.contents_four p {
+  line-height: 30px;
+  margin: 10px 35px 0 35px;
+}
+.contents_five h1 {
+  color: #f0973e;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin: 35px 0 0 35px;
+}
+.contents_five p {
+  line-height: 30px;
+  margin: 10px 35px 0 35px;
+}
+.contents_fifth h1 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+.timeline_subject {
+  position: relative;
+}
+.timeline_subject::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  height: 1px;
+  width: 350px;
+
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline_subject::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 647px;
+  height: 1px;
+  width: 350px;
+
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline-item1 {
+  padding: 20px 40px;
+  position: relative;
+  width: 400px;
+  left: 710px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.timeline-item2 {
+  padding: 20px 40px;
+  position: relative;
+  width: 400px;
+  left: 280px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.timeline-item1::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline-item2::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 410px;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline-item3 {
+  padding: 20px 40px;
+  position: relative;
+  width: 400px;
+  left: 710px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.timeline-item3::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline-item4 {
+  padding: 20px 40px;
+  position: relative;
+  width: 400px;
+  left: 280px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.timeline-item4::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 410px;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline-item5 {
+  padding: 20px 40px;
+  position: relative;
+  width: 400px;
+  left: 710px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.timeline-item5::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(216, 90, 44);
+  border-radius: 10px;
+}
+.timeline-content {
+  padding: 10px 20px;
+}
+
+.timeline-content h2 {
+  margin-top: 0;
+  color: rgb(216, 90, 44);
+  font-size: 1.5em;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
+main .middleSec img {
+  height: 239px;
+  width: 318px;
+}
+/* footer部分_______________________________________________________________________ */
+
+footer p {
+  text-align: center;
+  background-color: rgb(216, 90, 44);
+  color: #ffffff;
+  padding: 14px 10px 20px;
+}
