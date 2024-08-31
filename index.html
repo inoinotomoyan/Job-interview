@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sawarabi+Mincho&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+    <title>Tomo's portfolio</title>
+  </head>
+</html>
+<body>
+  <header>
+    <div class="innerWrap">
+      <nav class="navmain">
+        <ul class="Josefin">
+          <li><a class="nav1" href="#worksarea">Works</a></li>
+          <li><a class="nav2" href="#introducearea">Profile</a></li>
+          <li><a class="nav3" href="#contactarea">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="intro_text">
+        <h1>Welcome to Tomo's portfolio</h1>
+        <p>
+          Transforming Ideas into Reality with Expert Coding and Innovative
+          Design, Shaping the Digital Future
+        </p>
+      </div>
+
+      <!-- <div class="imagepic">
+        <img src="images/bright.jpg" alt="背景画像" />
+      </div> -->
+    </div>
+    <div class="imagepic">
+      <img src="images/bright.jpg" alt="背景画像" />
+    </div>
+  </header>
+</body>
+<main>
+  <section class="workSec" id="worksarea">
+    <div class="innerWrap">
+      <h2 class="Josefin">Works</h2>
+      <div class="worksdiv">
+        <div class="first">
+          <div class="firstportfolio">
+            <a href="#" class="portfolio_top">
+              <img
+                class="img-zoom"
+                src="images/portfolio.png"
+                alt="ポートフォリオ1つ目"
+              />
+            </a>
+          </div>
+          <p class="firstworktitle">「ポートフォリオ Topページ」</p>
+        </div>
+        <div class="second">
+          <div class="secondportfolio">
+            <a href="#" target="_blank" class="portfolio_profile">
+              <img
+                class="img-zoom"
+                src="images/myself_introduction.png"
+                alt="ポートフォリオ2つ目"
+              />
+            </a>
+          </div>
+          <p class="secondworktitle">「ポートフォリオ Profileページ」</p>
+        </div>
+        <div class="third">
+          <div class="thirdportfolio">
+            <a href="#" target="_blank" class="portfolio_third">
+              <img src="images/uploading_1.png" alt="ポートフォリオ3つ目" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="myselfSec" id="introducearea">
+    <div class="innerWrap">
+      <h2 class="Josefin">Profile</h2>
+      <div class="layoutWrap">
+        <div><img src="images/myself_in a caffe.jpeg" alt="自分の写真" /></div>
+        <div class="secondinnerWrap">
+          <div class="myselfDetails">
+            <p>
+              学生時代は機械工学を7年間学んできました。<br />
+              卒業後は自動車部品メーカーにて設備改善を行うエンジニアとして活躍しています。<br />
+              毎日、生産現場を支えています。<br />
+              <br />
+              プライベートではhtml、css、javascriptを学んでいます。<br />
+            </p>
+          </div>
+          <div class="buttondiv">
+            <button
+              type="button"
+              onclick="buttonClick()"
+              class="viewmore"
+              id="profilebtn"
+            >
+              <span></span>
+              View More
+            </button>
+            <span class="test"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contactSec" id="contactarea">
+    <footer>
+      <p><small>© Tomonori Inoue</small></p>
+    </footer>
+  </section>
+</main>

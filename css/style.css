@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+body {
+  font-family: "Noto Sans JP", serif;
+  font-size: 18px;
+  color: #121212;
+}
+
+.Josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.innerWrap {
+  /* border: 4px solid lightblue; */
+  width: 1240px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+/* これ以下はヘッダーに関係するCSS */
+
+header .innerWrap {
+  position: relative;
+  height: 834px;
+}
+
+header h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  /* padding-top: 120px; */
+}
+
+header p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  width: 60%;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  /* padding-top: 120px; */
+}
+
+header .imagepic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  /* height: 334px; */
+  width: 100%;
+}
+
+header .imagepic img {
+  /* width: 1240px;
+  height: 334px; */
+  width: 100%;
+}
+
+.navmain .Josefin {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: rgb(245, 243, 241);
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.navmain .Josefin .nav1 {
+  margin: 0 50px 0 0;
+}
+
+.navmain .Josefin .nav2 {
+  margin: 0 50px 0 0;
+}
+
+.navmain .Josefin .nav3 {
+  margin: 0 50px 0 0;
+}
+
+.navmain .Josefin li a:hover {
+  text-decoration: underline;
+}
+
+/* これ以下はmainタグ内に関するCSS_____________________________________________________________ */
+
+main h2 {
+  /* text-align: center; */
+  font-size: 60px;
+  letter-spacing: 0.05em;
+  margin-bottom: 80px;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* これ以下はworksecタグ内に関するCSS_________________________________________________________________ */
+
+.workSec .innerWrap {
+  height: 500px;
+  margin: 100px auto 100px auto;
+}
+
+.workSec .innerWrap .worksdiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first {
+  width: 300px;
+}
+
+.firstportfolio {
+  position: relative;
+  overflow: hidden;
+}
+
+.firstportfolio .img-zoom {
+  width: 300px;
+  height: 300px;
+  /* border-radius: 5%; */
+  border: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.img-zoom:hover {
+  transform: scale(1.15);
+}
+
+.firstportfolio::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+}
+
+.firstportfolio:hover::after {
+  content: "production period \A 2024/5/23～6/24";
+  background-color: rgba(0, 0, 0, 0.6);
+
+  color: white;
+  white-space: pre;
+  pointer-events: none;
+}
+
+.firstworktitle {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin: 20px 0 0 0;
+}
+
+.second {
+  width: 300px;
+}
+
+.secondportfolio {
+  position: relative;
+  overflow: hidden;
+}
+
+.secondportfolio .img-zoom {
+  width: 300px;
+  height: 300px;
+  /* border-radius: 5%; */
+  border: 1px solid black;
+  transition: transform 0.3s ease;
+}
+
+.secondportfolio::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+}
+
+.secondportfolio:hover::after {
+  content: "production period \A 2024/5/23～6/24";
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  white-space: pre;
+  pointer-events: none;
+}
+
+.secondworktitle {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin: 20px 0 0 0;
+}
+
+.thirdportfolio {
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+  }
+}
+
+/* これ以下はmyselfsecタグ内に関するCSS_____________________________________________________________ */
+.myselfSec .innerWrap {
+  height: 500px;
+  margin: 0 auto 150px auto;
+}
+
+.myselfSec .innerWrap .layoutWrap {
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 0 0 60px;
+}
+
+.myselfSec .innerWrap .layoutWrap img {
+  width: 300px;
+  height: 300px;
+  /* border-radius: 5%; */
+}
+
+.myselfSec .innerWrap .layoutWrap .secondinnerWrap {
+  height: 300px;
+}
+
+.myselfDetails {
+  width: 600px;
+  margin: 30px 80px 30px 110px;
+}
+
+.buttondiv {
+  text-align: center;
+}
+
+.viewmore {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  padding: 30px 40px;
+  margin: 35px 0 0 0;
+  font-weight: 650;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.3s;
+}
+
+.viewmore span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  z-index: -1;
+}
+
+.viewmore:hover {
+  color: white;
+}
+
+.viewmore:hover span {
+  transform: none;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/* これ以下はcontactsecタグ内に関するCSS____________________________________________________________ */
+.contactSec footer {
+  text-align: center;
+  background-color: rgb(44, 99, 216);
+  color: #ffffff;
+  padding: 14px 10px 20px;
+}
+
+.myself_top {
+  position: absolute;
+  top: 150px;
+  left: 60%
+}
+
+.intro_text {
+  position: absolute;
+  top: 16rem;
+  left: 40rem;
+  width: 100%;
+}
