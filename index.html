@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sawarabi+Mincho&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+    <title>Tomo's portfolio</title>
+  </head>
+</html>
+<body>
+  <header>
+    <div>
+      <h1><img src="images/students.jpg" alt="language school" /></h1>
+      <h1><img src="images/studentsunderatree.jpg" alt="language school" /></h1>
+    </div>
+    <h1><img class="companylogo" src="images/logo.png" alt="logo" /></h1>
+    <nav>
+      <ul>
+        <li><a href="#">留学の目的・目標</a></li>
+        <li><a href="#">行きたい国</a></li>
+        <li><a href="#">無料セミナー・説明会</a></li>
+        <li><a href="#">選ばれる理由・実績</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+<main>
+  <section class="middleSec" id="middlecontentstarea">
+    <div class="contents_middle">
+      <div class="images">
+        <div class="carousel">
+          <div class="slides">
+            <div class="slide active">
+              <img src="images/people-2567915_1280.jpg" alt="Image 1" />
+            </div>
+            <div class="slide">
+              <img src="images/dreamimage.png" alt="Image 2" />
+            </div>
+            <div class="slide">
+              <a href="https://hamatakeblog.hatenablog.com" class="experience"
+                ><img src="images/experience.png" alt="Image 3"
+              /></a>
+            </div>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+          <div class="indicators">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="purposeSec" id="purposearea">
+    <div class="purpose_subject">目的で選ぶ</div>
+    <div class="selectionlist">
+      <ul>
+        <li><a href="https://www.flierinc.com/summary/2937">語学留学</a></li>
+        <li><a href="#">短期留学(1週間～2か月)</a></li>
+        <li><a href="#">長期留学(3か月以上～)</a></li>
+        <li><a href="#">ワーキングホリデー</a></li>
+        <li><a href="#">海外大学進学</a></li>
+        <li><a href="#">海外インターンシップ</a></li>
+      </ul>
+      <div class="container">
+        <ul id="hidden-content" class="hidden-content">
+          <li><a href="#">社会人留学</a></li>
+          <li><a href="#">インターンシップ</a></li>
+          <li><a href="#">海外高校留学</a></li>
+          <li><a href="#">中学・高校生夏休み留学</a></li>
+          <li><a href="#">シニア留学</a></li>
+          <li><a href="#" class="others">その他</a></li>
+        </ul>
+        <button id="more-button" class="seemore">もっと見る</button>
+      </div>
+    </div>
+  </section>
+  <section class="countrySec" id="countryarea">
+    <div class="country_subject">国で選ぶ</div>
+    <div class="selectionlist">
+      <ul>
+        <li><a href="https://www.flierinc.com/summary/2937">アメリカ</a></li>
+        <li><a href="#">カナダ</a></li>
+        <li><a href="#">イギリス</a></li>
+        <li><a href="#">オーストラリア</a></li>
+        <li><a href="#">ニュージーランド</a></li>
+        <li><a href="#">その他</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="inquirySec" id="inquiryarea">
+    <div class="innerwrap">
+      <div class="inquiry_subject">お問い合わせ</div>
+      <ul>
+        <li><a href="#">✉メール </a></li>
+        <li><a href="#">📞お電話</a></li>
+        <li><a href="#">📖資料請求</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="contactSec" id="contactarea">
+    <footer>
+      <p><small>© Tomonori Inoue</small></p>
+    </footer>
+  </section>
+</main>
