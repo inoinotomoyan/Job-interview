@@ -68,7 +68,7 @@ body {
 
 main h2 {
   font-size: 60px;
-  letter-spacing: 0.05em;
+  letter-spacing: 5px;
   margin-bottom: 80px;
 }
 
@@ -160,9 +160,6 @@ main ul {
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
-  animation-timeline: auto;
-  animation-range-start: normal;
-  animation-range-end: normal;
 }
 
 @keyframes rotate-circle-right {
