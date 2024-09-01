@@ -6,7 +6,6 @@ body {
 }
 h1 {
   text-align: center;
-  /* padding: 20px 0px 16px; */
 }
 h1 img {
   height: 200px;
@@ -74,9 +73,7 @@ main .purposeSec .selectionlist ul li {
   flex-basis: 22%;
   border: 2px solid #7c5d48;
   border-radius: 2%;
-  /* border-bottom: 2px solid #7c5d48; */
   background-color: rgba(255, 255, 255, 0.42);
-  /* background-color: rgba(255, 255, 255, 0.42); */
   margin: 10px 20px 0 20px;
   padding: 12px 0px 10px;
   width: 25%;
@@ -90,11 +87,9 @@ main .purposeSec .selectionlist ul li a {
 main .purposeSec .selectionlist ul li:hover {
   background-color: lightblue;
   background-color: orange;
-  /* pointer-events: none; */
 }
 
 .container {
-  /* position: relative; */
   max-width: 1100px;
   margin: 20px auto;
 }
@@ -148,8 +143,6 @@ main .countrySec .selectionlist ul li {
   flex-basis: 22%;
   border: 2px solid #7c5d48;
   border-radius: 2%;
-  /* border-bottom: 2px solid #7c5d48; */
-  /* background-color: rgba(255, 255, 255, 0.42); */
   margin: 10px 20px 0 20px;
   padding: 12px 0px 10px;
 }
@@ -161,7 +154,6 @@ main .countrySec .selectionlist ul li a {
 
 main .countrySec .selectionlist ul li:hover {
   background-color: orange;
-  /* pointer-events: none; */
 }
 
 /* カルーセルとインジケータ部分＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ */
