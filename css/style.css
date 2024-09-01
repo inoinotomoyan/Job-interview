@@ -7,7 +7,6 @@ body {
 
 h1 {
   text-align: center;
-  /* padding: 20px 0px 16px; */
 }
 h1 img {
   height: 200px;
@@ -46,19 +45,15 @@ header nav ul li a:hover {
 main .bulletinboard {
   display: flex;
   height: 100px;
-
-  /* margin-top: 100px; */
 }
 main .bulletinboard p {
   text-align: center;
   width: 400px;
-  margin: 20px auto 20px auto;
-
+  margin: 14px auto 20px auto;
   background-color: white;
   font-size: 50px;
   color: #f0973e;
   border: 2px solid #f0973e;
-
   font-weight: 400;
 }
 
