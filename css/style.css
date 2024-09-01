@@ -10,16 +10,12 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.innerWrap {
-  width: 1240px;
-  margin: 0 auto;
-  height: 600px;
-}
-
 /* これ以下はヘッダーに関係するCSS */
 
 header .innerWrap {
   position: relative;
+  width: 100%;
+  margin: 0 auto;
   height: 834px;
 }
 
@@ -33,7 +29,7 @@ header p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   width: 60%;
-  padding: 20px;
+  padding: 5px;
   color: rgb(255, 255, 255);
 }
 
@@ -75,20 +71,23 @@ header .imagepic img {
 .navmain .Josefin li a:hover {
   text-decoration: underline;
 }
-
+.intro_text {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
 /* これ以下はmainタグ内に関するCSS_____________________________________________________________ */
 
 main h2 {
-  /* text-align: center; */
   font-size: 60px;
-  letter-spacing: 0.05em;
+  letter-spacing: 5px;
   margin-bottom: 80px;
 }
 
 main h3 {
   text-align: center;
   font-size: 50px;
-  letter-spacing: 0.05em;
+  letter-spacing: 5px;
   margin-bottom: 80px;
   margin-top: 80px;
 }
@@ -109,10 +108,6 @@ main ul {
 .workSec .innerWrap .worksdiv {
   display: flex;
   justify-content: space-around;
-}
-
-.first {
-  width: 300px;
 }
 
 .eachportfolio {
@@ -160,10 +155,6 @@ main ul {
   height: 300px;
   margin: 20px 0 0 0;
   font-size: 18px;
-}
-
-.second {
-  width: 300px;
 }
 
 /* これ以下はmyselfsecタグ内に関するCSS_____________________________________________________________ */
@@ -240,17 +231,4 @@ main ul {
   background-color: rgb(44, 99, 216);
   color: #ffffff;
   padding: 14px 10px 20px;
-}
-
-.myself_top {
-  position: absolute;
-  top: 150px;
-  left: 60%;
-}
-
-.intro_text {
-  position: absolute;
-  top: 16rem;
-  left: 40rem;
-  width: 100%;
 }
