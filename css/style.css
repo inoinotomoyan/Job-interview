@@ -125,6 +125,7 @@ main ul {
   height: 300px;
   border: 1px solid black;
   transition: transform 0.3s ease;
+  border-radius: 10px;
 }
 
 .img-zoom:hover {
@@ -150,6 +151,7 @@ main ul {
   color: white;
   white-space: pre;
   pointer-events: none;
+  border-radius: 10px;
 }
 
 .worktitle {
