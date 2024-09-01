@@ -4,17 +4,17 @@ body {
   font-size: 18px;
   color: #121212;
 }
-h1 {
+.headerimage {
   text-align: center;
 }
-h1 img {
+.headerimage img {
   height: 200px;
 }
-header div {
+header .innerwrap {
   display: flex;
   justify-content: center;
 }
-header h1 .companylogo {
+header .headerimage .companylogo {
   position: absolute;
   top: 0;
   left: 0;
